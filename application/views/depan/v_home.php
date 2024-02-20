@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Techie Bootstrap Template - Index</title>
+  <title>SIPUS DIGI-SMK Assa'idiyah Kudus</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -49,7 +49,7 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Login Admin</a></li>
+          <li><a class="getstarted scrollto" href="<?= base_url();?>auth/login_admin">Login Admin</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -62,12 +62,12 @@
 
     <div class="container-fluid" data-aos="fade-up">
       <div class="row justify-content-center">
-        <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1>Bettter Digital Experience With Techie</h1>
+        <div class="col-xl-6 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1>Aplikasi Perpustakaan Digital<br>SMK Assa'idiyah Kudus</h1>
           <h2>We are team of talented designers making websites with Bootstrap</h2>
           <div>
-            <a href="#about" class="btn-get-started scrollto">Login Anggota</a>
-            <a href="#about" class="btn-get-started scrollto">Regristrasi Anggota</a>
+            <a href="<?php echo base_url(); ?>auth/login_anggota" class="btn-get-started scrollto">Login Anggota</a>
+            <a href="<?= base_url();?>auth/regristrasi" class="btn-get-started scrollto">Regristrasi Anggota</a>
           </div>
         </div>
         <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
